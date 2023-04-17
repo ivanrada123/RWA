@@ -32,5 +32,21 @@ class Home extends Controller
         return view('home.apple');
 
     }
+    Public function samsung()
+    {
+        return view('home.samsung');
+    }
+    Public function xiaomi()
+    {
+        return view('home.xiaomi');
+    }
+    Public function huawei()
+    {
+        return view('home.huawei');
+    }
+    Public function google()
+    {
+        return view('home.google');
+    }
 }
 

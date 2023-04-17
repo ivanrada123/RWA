@@ -38,5 +38,8 @@ Route::middleware('auth')->group(function () {
 Route::get('/servis', [Home::class, 'servis']);
 Route::post('/dodaj_mobitel', [Home::class, 'dodaj_mobitel']);
 Route::get('/apple', [Home::class, 'apple']);
-
+Route::get('/samsung',[Home::class, 'samsung']);
+Route::get('/huawei',[Home::class, 'huawei']);
+Route::get('/xiaomi',[Home::class, 'xiaomi']);
+Route::get('/google',[Home::class, 'google']);
 require __DIR__.'/auth.php';

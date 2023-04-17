@@ -110,9 +110,9 @@
 						</div>
 						<div class="col-md-6">
 							<div class="a">
-								<a href="#test-popup-2" >
+								<a href="{{ url('samsung') }}" >
 									<img src="images/2.jpg" class="img-responsive" alt="Responsive image">
-									<div class="img-hover shoes-glass">
+									 <div class="img-hover shoes-glass">
 										<div class="c-table">
 											<div class="ct-cell">
 												<h3 class="img-title">Samsung</h3>
@@ -148,7 +148,7 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="a">
-								<a href="#test-popup-3">
+								<a href="{{ url('xiaomi') }}">
 									<img src="images/3.jpg" class="img-responsive" alt="Responsive image">
 									<div class="img-hover hand-parts">
 										<div class="c-table">
@@ -183,7 +183,7 @@
 
 						<div class="col-md-4">
 							<div class="a">
-								<a href="#test-popup-4">
+								<a href="{{ url('huawei') }}">
 									<img src="images/4.jpg" class="img-responsive" alt="Responsive image">
 									<div class="img-hover table-with-phone">
 										<div class="c-table">
@@ -217,9 +217,9 @@
 						</div>
 						<div class="col-md-4">
 							<div class="a">
-								<a href="#test-popup-5" >
+								<a href="{{ url('google') }}" >
 									<img src="images/5.jpg" class="img-responsive" alt="Responsive image">
-									<div class="img-hover orange-shoe">
+									 <div class="img-hover orange-shoe"> 
 										<div class="c-table">
 											<div class="ct-cell">
 												<h3 class="img-title">Google</h3>
@@ -313,21 +313,21 @@
 					<div class="col-md-12 col-xs-12">
 						<ul class="text-center social-contact">
 							<li class="social-icons">
-							<a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a>
+							<a href="{{ url('https://www.facebook.com/nimbusrepair') }}" class="icon style2 fa-facebook"><span class="label">Facebook</span></a>
 							</li>
 							<li class="social-icons">
-								<a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a>
+								<a href="{{ url('https://twitter.com/ivanrada123') }}" class="icon style2 fa-twitter"><span class="label">Twitter</span></a>
 							</li>
 							
 							<li class="social-icons">
-								<a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a>
+								<a href="{{ url('https://www.instagram.com/ivan_repair_/') }}" class="icon style2 fa-instagram"><span class="label">Instagram</span></a>
 							</li>
-							<li class="social-icons">
+							<!-- <li class="social-icons">
 								<a href="#" class="icon style2 fa-reddit-alien"><span class="label">reddit-alien</span></a>
-							</li>
+							</li>-->
 							
 							<li class="social-icons">
-								<a href="#" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a>
+								<a href="{{ url('https://www.linkedin.com/in/ivan-radojevi%C4%87-a8b519258/') }}" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a>
 							</li>
 						</ul>							
 					</div>
@@ -340,7 +340,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-8 col-xs-9">
-							<p class="right-color">&copy; Copyright 2023. All rights reserved by Ivan & Katja.</a></p>
+							<p class="right-color">&copy; Copyright 2023. All rights reserved to Ivan & Katja.</a></p>
 						</div>
 						<div class="col-sm-4 col-xs-3" align="right">
 							<a href="#" id="back-to-top" class="top text-right" >TOP <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
