@@ -4,8 +4,7 @@
 //povezivanje sa bazom
 $conn = mysqli_connect('localhost', 'ivan123','12345678','rwa');
 
-//provjera veze
-//testiranje commitanja
+//provjeravanje veze
 
 if (!$conn){
     echo 'Connection error: ' . mysqli_connect_error();
