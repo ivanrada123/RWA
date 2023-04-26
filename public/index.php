@@ -1,5 +1,15 @@
 <?php
 
+
+//povezivanje sa bazom
+$conn = mysqli_connect('localhost', 'ivan123','12345678','rwa');
+
+//provjera veze
+
+if (!$conn){
+    echo 'Connection error: ' . mysqli_connect_error();
+}
+
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
