@@ -2,13 +2,13 @@
 
 
 //povezivanje sa bazom
-$conn = mysqli_connect('localhost', 'ivan123','12345678','rwa');
+//$conn = mysqli_connect('localhost', 'ivan123','12345678','rwa');
 
 //provjeravanje veze
 
-if (!$conn){
-    echo 'Connection error: ' . mysqli_connect_error();
-}
+//if (!$conn){
+//    echo 'Connection error: ' . mysqli_connect_error();
+//}
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
